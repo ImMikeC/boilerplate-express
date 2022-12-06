@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.gh
+		pkgs.gti
+  pkgs.gh
   pkgs.nodejs-16_x
         pkgs.nodePackages.typescript-language-server
         pkgs.yarn
